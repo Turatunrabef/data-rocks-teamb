@@ -10,6 +10,6 @@ rust-version = "1.63.0"
 [dependencies]
 libc.workspace = true
 tokio = { workspace = true, features = ["net"] }
-socket2 = { version = "0.5", features = ["all"] }
+socket2 = { version = "0.6", features = ["all"] }
 rand.workspace = true
 g3-types.workspace = true
